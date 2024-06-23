@@ -8,7 +8,7 @@ const SignUp = () => {
                 Welcome Master!
                 <div>Verify it's you.</div>
             </div>
-            <input type="text" />
+            <input type="text" /> <br />
             <input type="password" />
             <div>
                 <span>Let's Go!</span>

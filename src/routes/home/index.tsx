@@ -2,6 +2,11 @@ import { Elysia, t } from "elysia";
 import { App } from "../../components/App";
 
 const SignUp = () => {
+
+    const script = <script>
+        document.title = "Sign Up";
+    </script>
+
     return <div class="flex items-center justify-center">
         <div>
             <div>
@@ -14,6 +19,7 @@ const SignUp = () => {
                 <span>Let's Go!</span>
             </div>
         </div>
+        {script}
     </div>
 }
 

@@ -554,8 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .items-center {
@@ -566,6 +574,16 @@ video {
   justify-content: center;
 }
 
+.bg-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 146 166 / var(--tw-bg-opacity));
+}
+
+.bg-gray-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 52 68 / var(--tw-bg-opacity));
+}
+
 .text-center {
   text-align: center;
 }
@@ -573,4 +591,19 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-dark-blue {
+  --tw-text-opacity: 1;
+  color: rgb(26 178 250 / var(--tw-text-opacity));
+}
+
+.text-gray-light {
+  --tw-text-opacity: 1;
+  color: rgb(211 220 230 / var(--tw-text-opacity));
 }

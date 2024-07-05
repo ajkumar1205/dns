@@ -10,6 +10,7 @@ module.exports = {
     },
     colors: {
       'blue': '#1fb6ff',
+      'dark-blue': "#1ab2fa",
       'purple': '#7e5bef',
       'pink': '#ff49db',
       'orange': '#ff7849',
@@ -18,6 +19,7 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'white': "#ffffff"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

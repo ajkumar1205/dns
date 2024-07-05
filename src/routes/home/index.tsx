@@ -3,26 +3,23 @@ import { App } from "../../components/App";
 
 const SignUp = () => {
 
-    const script = <script>
-        document.title = "Sign Up";
-    </script>
-
-    return <div class="flex items-center justify-center">
-        <div>
-            <div>
+    return <div class="flex items-center justify-center bg-gray-dark h-screen">
+        <div class="">
+            <div id="welcome" class="text-3xl text-gray-light">
                 Welcome Master!
-                <div>Verify it's you.</div>
+                <div class="text-sm text-dark-blue">Verify it's you.</div>
             </div>
-            <input type="text" /> <br />
-            <input type="password" />
+            <form >
+                <input type="text" class="bg-gray m-2" /> <br />
+
+                <input type="password" class="bg-gray m-2" />
+            </form>
             <div>
                 <span>Let's Go!</span>
             </div>
         </div>
-        {script}
     </div>
 }
-
 
 
 

@@ -4,7 +4,7 @@ import { App } from "../../components/App";
 const SignUp = () => {
 
     return <div class="flex items-center justify-center bg-gray-dark h-screen">
-        <div class="">
+        <div class="flex items-center justify-center">
             <div id="welcome" class="text-3xl text-gray-light">
                 Welcome Master!
                 <div class="text-sm text-dark-blue">Verify it's you.</div>
@@ -14,9 +14,9 @@ const SignUp = () => {
 
                 <input type="password" class="bg-gray m-2" />
             </form>
-            <div>
-                <span>Let's Go!</span>
-            </div>
+
+            <div class="border-r-4 p-2 text-white bg-dark-blue">Let's Go!</div>
+
         </div>
     </div>
 }

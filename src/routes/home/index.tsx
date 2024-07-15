@@ -15,7 +15,7 @@ const SignUp = () => {
                 <input type="password" class="bg-gray m-2" />
             </form>
 
-            <div class="border-r-4 p-2 text-white bg-dark-blue">Let's Go!</div>
+            <div class="border-r-4 p-2 text-white bg-dark-blue">Verify</div>
 
         </div>
     </div>

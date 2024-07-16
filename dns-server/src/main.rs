@@ -60,10 +60,7 @@ async fn handle_query(
 
         response.answers.push(record);
     } else {
-        panic!(
-            "\nMore then or less then 1 value was found in the database :: {:?}",
-            val.column_count()
-        )
+        return Ok(());
     }
 
     let ans = ResourceRecord::new(
@@ -84,3 +81,4 @@ async fn handle_query(
 
     Ok(())
 }
+
